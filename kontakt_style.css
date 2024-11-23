@@ -1,0 +1,126 @@
+
+
+body{
+    background-color: #FEE2FF;
+}
+
+.kontact{
+    background-color: #A853C6;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.kontact h1{
+    text-align: center;
+    color: white;
+}
+
+.kontact a{
+    text-decoration: none;
+    color: white;
+}
+
+.kontact p{
+    color: white;
+}
+
+.contakt2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contakt2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.texpod{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texpod button{
+    background-color: #8E3FD2;
+    border: none;
+    border-radius: 50px;
+    width: 25%;
+    font-size: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.texpod p{
+    background-color: #A853C6;
+    width:fit-content;
+    font-size: 30px;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.map{
+    margin-left: 33%;
+}
+.map2{
+    display: none;
+}
+
+@media(max-width:400px){
+    .contakt2{
+        display: block;
+    }
+    .kontact{
+        margin-left: 25%;
+    }
+    .texpod button{
+        font-size: 15px;
+        width: 35%;
+        margin-left: 20%;
+    }
+    .texpod p{
+        font-size: 20px;
+        margin-left: 19%;
+    }
+    .map{
+        display: none;
+    }
+    .map2{
+        display: block;
+        margin-left: 19%;
+    }
+}
+
+@media(max-width:800px){
+    .contakt2{
+        display: block;
+    }
+    .kontact{
+        margin-left: 24%;
+    }
+    .texpod button{
+        font-size: 20px;
+        width: 35%;
+        margin-left: 15%;
+    }
+    .texpod p{
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .map{
+        margin-left: 15%;
+    }
+    .contakt2 img{
+        height: 10%;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+

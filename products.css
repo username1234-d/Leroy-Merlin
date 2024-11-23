@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:#3C046D;
+}
+
+.card{
+    margin-top: 40px;
+    margin-right:80px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.card img{
+    padding: 20px;
+    background-color: #9F00A3;
+}
+
+.card-body{
+    background-color: #CD5FCF;
+     border-radius:10px ;
+    
+}
+
+.card-body .card-title{
+    color: blue;
+}
+
+
+

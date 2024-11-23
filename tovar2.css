@@ -1,0 +1,40 @@
+.picture{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 56% 55%;
+}
+
+.mebel{
+    display: flex;
+    background-color: #8200b5;
+    width: 75%;
+    height: 70vh;
+    padding: 1%;
+    border-radius: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.knopka{
+    position: absolute;
+    top: 53%;
+    left: 8%;
+    margin-left: 86px;
+}
+
+.knopka button{
+    background-color: #5c0084;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 86px;
+}
